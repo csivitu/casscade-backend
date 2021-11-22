@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('./models/dbinit');
 import express, {Request, Response} from 'express'
 
 
